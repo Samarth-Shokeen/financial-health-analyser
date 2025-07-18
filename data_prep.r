@@ -4,7 +4,7 @@ library(tidyr)
 library(readr)
 library(scales)
 
-df <- read_excel("C:/users/garim/Desktop/financial_health/financialdata.xlsx")
+df <- read_excel("financialdata.xlsx")
 
 df_selected <- df %>%
   select(
